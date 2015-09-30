@@ -1,0 +1,56 @@
+{
+    "name": "TestMultiDevice",
+    "settings": {
+        "cmd": {
+            "license": "gpl",
+            "cmdVersion": "6.0.1.76",
+            "frameworkVersion": "2.4.2.571"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost/TestMultiDevice/",
+        "exportPath": "C:/xampp/htdocs/TestMultiDeviceDist",
+        "projectHasEnabledWebServer": false,
+        "lockUrlPrefix": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "installStatus": "Not Installed",
+        "sdkPath": "",
+        "lastBuildSelection": {
+            "value": "nativeBuild",
+            "display": "Native Build"
+        }
+    },
+    "xdsVersion": "3.2.0",
+    "xdsBuild": 339,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "touch24",
+    "viewOrderMap": {
+        "view": [
+            "b9e380be-1736-4554-aecd-83e5a2f776fc"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "d7a37160-6fbc-470a-a726-1f34763e30f0",
+            "bb1b8ade-3d6f-482f-a83f-c0b7310e6cf1",
+            "3b43e76b-52f7-4c1b-a0f0-9d72691b60f9"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

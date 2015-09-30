@@ -1,0 +1,42 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyFormPanel"
+    },
+    "name": "MyFormPanel",
+    "designerId": "b9e380be-1736-4554-aecd-83e5a2f776fc",
+    "cn": [
+        {
+            "type": "Ext.field.Password",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Pass"
+            },
+            "name": "MyPasswordField",
+            "designerId": "eff71400-c01a-4796-bcf9-c8b4b055dbb6"
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "login"
+            },
+            "name": "MyTextField",
+            "designerId": "fea72d38-784c-4838-83b9-e3f2f09c1685"
+        }
+    ]
+}
