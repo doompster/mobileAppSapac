@@ -28,8 +28,8 @@
         "installStatus": "Not Installed",
         "sdkPath": "",
         "lastBuildSelection": {
-            "value": "webBuild",
-            "display": "Build web app"
+            "value": "nativeBuild",
+            "display": "Native Build"
         }
     },
     "xdsVersion": "3.2.0",

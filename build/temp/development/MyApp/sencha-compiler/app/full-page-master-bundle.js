@@ -1,2 +1,2 @@
 // @tag full-page
-// @require C:\xampp\htdocs\TestMultiDevice\app.js
+// @require C:\Users\Aldvalde\git\FirstSencha\app.js
