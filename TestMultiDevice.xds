@@ -28,8 +28,8 @@
         "installStatus": "Not Installed",
         "sdkPath": "",
         "lastBuildSelection": {
-            "value": "emulate",
-            "display": "Native Build & Emulate"
+            "value": "nativeBuild",
+            "display": "Native Build"
         }
     },
     "xdsVersion": "3.2.0",
