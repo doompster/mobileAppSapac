@@ -6,7 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "SecondView"
+        "designer|userClassName": "SecondView",
+        "id": "SecondView",
+        "itemId": "SecondView"
     },
     "name": "MyNavigationView",
     "designerId": "4789d264-76ed-483b-a964-f1ae0be0645f"

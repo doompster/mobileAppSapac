@@ -17,6 +17,8 @@ Ext.define('MyApp.view.SecondView', {
     extend: 'Ext.navigation.View',
 
     config: {
+        id: 'SecondView',
+        itemId: 'SecondView'
     }
 
 });

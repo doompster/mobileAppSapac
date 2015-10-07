@@ -29,6 +29,8 @@ Ext.define('MyApp.view.InitialView', {
     ],
 
     config: {
+        id: 'InitialView',
+        itemId: 'InitialView',
         items: [
             {
                 xtype: 'formpanel',

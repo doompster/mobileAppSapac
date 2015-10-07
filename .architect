@@ -95,8 +95,8 @@
         "topInstance": "4789d264-76ed-483b-a964-f1ae0be0645f"
     },
     "inspectorState": {
-        "topInstance": "4789d264-76ed-483b-a964-f1ae0be0645f",
-        "selectedInstance": "4789d264-76ed-483b-a964-f1ae0be0645f"
+        "topInstance": null,
+        "selectedInstance": null
     },
     "editMode": "design",
     "userSettings": {
