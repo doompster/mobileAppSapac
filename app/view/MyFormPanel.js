@@ -22,7 +22,8 @@ Ext.define('MyApp.view.MyFormPanel', {
         'Ext.picker.Date',
         'Ext.Button',
         'Ext.field.Spinner',
-        'Ext.field.Toggle'
+        'Ext.field.Toggle',
+        'Ext.field.Checkbox'
     ],
 
     config: {
@@ -50,6 +51,18 @@ Ext.define('MyApp.view.MyFormPanel', {
             },
             {
                 xtype: 'sliderfield',
+                label: 'Field'
+            },
+            {
+                xtype: 'button',
+                text: 'MyButton2'
+            },
+            {
+                xtype: 'checkboxfield',
+                label: 'Field'
+            },
+            {
+                xtype: 'numberfield',
                 label: 'Field'
             }
         ]
