@@ -7,7 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "designer|initialView": true,
-        "designer|userClassName": "MyPanel",
+        "designer|userClassName": "Initial",
         "layout": "fit"
     },
     "name": "MyPanel",
@@ -34,7 +34,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "text": "MyButton3"
+                        "itemId": "mybutton3",
+                        "text": "Next"
                     },
                     "name": "MyButton3",
                     "designerId": "44a5dc47-4c77-4c7d-ab00-a371d756e9e7"

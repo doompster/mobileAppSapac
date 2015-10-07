@@ -1,0 +1,39 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController"
+    },
+    "name": "MyController",
+    "designerId": "4c3d9620-2456-4ffe-bd91-e6dd01fd753e",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#mybutton3",
+                "designer|params": [
+                    "button",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "Ext.Button",
+                "fn": "onMybutton3Tap",
+                "implHandler": [
+                    "Ext.get('SecondView').setActiveItem(1, {type : 'slide', direction:'left'});"
+                ],
+                "name": "tap"
+            },
+            "name": "onMybutton3Tap",
+            "designerId": "9f2c112e-87cb-44d4-922a-14cfcf652d7e"
+        }
+    ]
+}

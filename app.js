@@ -21,13 +21,17 @@ Ext.Loader.setConfig({
 
 Ext.application({
     views: [
-        'MyPanel'
+        'Initial',
+        'SecondView'
+    ],
+    controllers: [
+        'MyController'
     ],
     name: 'MyApp',
 
     launch: function() {
 
-        Ext.create('MyApp.view.MyPanel', {fullscreen: true});
+        Ext.create('MyApp.view.Initial', {fullscreen: true});
     }
 
 });

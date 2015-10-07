@@ -6,9 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "MyController"
+        ],
         "name": "MyApp",
         "views": [
-            "MyPanel"
+            "Initial",
+            "SecondView"
         ]
     },
     "name": "Application",
