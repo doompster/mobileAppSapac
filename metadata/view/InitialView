@@ -1,5 +1,5 @@
 {
-    "type": "Ext.Panel",
+    "type": "Ext.navigation.View",
     "reference": {
         "name": "items",
         "type": "array"
@@ -7,41 +7,11 @@
     "codeClass": null,
     "userConfig": {
         "designer|initialView": true,
-        "designer|userClassName": "Initial",
-        "layout": "fit"
+        "designer|userClassName": "InitialView"
     },
-    "name": "MyPanel",
-    "designerId": "2ba58f6c-d5ad-4883-a586-b1592d315f8e",
+    "name": "MyNavigationView1",
+    "designerId": "2e875748-5268-4e35-a709-1c2ccd8f5a38",
     "cn": [
-        {
-            "type": "Ext.Toolbar",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "docked": "top"
-            },
-            "name": "MyToolbar1",
-            "designerId": "d0546486-7434-4843-bfac-54cc07ce5b41",
-            "cn": [
-                {
-                    "type": "Ext.Button",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "itemId": "mybutton3",
-                        "text": "Next"
-                    },
-                    "name": "MyButton3",
-                    "designerId": "44a5dc47-4c77-4c7d-ab00-a371d756e9e7"
-                }
-            ]
-        },
         {
             "type": "Ext.form.Panel",
             "reference": {
@@ -53,7 +23,7 @@
                 "docked": null
             },
             "name": "MyFormPanel",
-            "designerId": "0870a182-c5a1-419c-bddb-d265a16a7ae3",
+            "designerId": "97b79099-988d-4611-b2d3-ac734b668dc4",
             "cn": [
                 {
                     "type": "Ext.field.Password",
@@ -175,19 +145,6 @@
                     "designerId": "fa0f4e2b-b889-4e1d-9202-5818366b71f5"
                 },
                 {
-                    "type": "Ext.Button",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "text": "MyButton2"
-                    },
-                    "name": "MyButton2",
-                    "designerId": "18b0a578-592e-4c86-8350-e5281d9e0e6a"
-                },
-                {
                     "type": "Ext.field.Checkbox",
                     "reference": {
                         "name": "items",
@@ -212,6 +169,35 @@
                     },
                     "name": "MyNumberField",
                     "designerId": "65392b98-af70-4b60-bec9-0691ecd86651"
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "bottom"
+                    },
+                    "name": "MyToolbar1",
+                    "designerId": "cd836098-e24e-4895-98f5-1bdaf3646b2d",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "mybutton2",
+                                "text": "Save"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "ab7047b4-0c9c-4908-9692-05d3064de985"
+                        }
+                    ]
                 }
             ]
         }

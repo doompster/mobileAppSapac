@@ -18,14 +18,14 @@ Ext.define('MyApp.controller.MyController', {
 
     config: {
         control: {
-            "button#mybutton3": {
-                tap: 'onMybutton3Tap'
+            "button#mybutton2": {
+                tap: 'onMybutton2Tap'
             }
         }
     },
 
-    onMybutton3Tap: function(button, e, eOpts) {
-        Ext.get('SecondView').setActiveItem(1, {type : 'slide', direction:'left'});
+    onMybutton2Tap: function(button, e, eOpts) {
+        Ext.get('InitialView').push(Ext.get('SecondView'));
     }
 
 });

@@ -14,28 +14,9 @@
  */
 
 Ext.define('MyApp.view.SecondView', {
-    extend: 'Ext.Panel',
-
-    requires: [
-        'Ext.TitleBar',
-        'Ext.Toolbar',
-        'Ext.navigation.View'
-    ],
+    extend: 'Ext.navigation.View',
 
     config: {
-        items: [
-            {
-                xtype: 'titlebar',
-                docked: 'top'
-            },
-            {
-                xtype: 'toolbar',
-                docked: 'bottom'
-            },
-            {
-                xtype: 'navigationview'
-            }
-        ]
     }
 
 });

@@ -1,5 +1,5 @@
 {
-    "type": "Ext.Panel",
+    "type": "Ext.navigation.View",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,44 +8,6 @@
     "userConfig": {
         "designer|userClassName": "SecondView"
     },
-    "name": "MyPanel1",
-    "designerId": "e81e2c0e-e935-41c3-adf5-9514ed4a443c",
-    "cn": [
-        {
-            "type": "Ext.TitleBar",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "docked": "top"
-            },
-            "name": "MyTitleBar",
-            "designerId": "9bae5b5f-78a3-403c-9b39-dbb8ffa3f4ba"
-        },
-        {
-            "type": "Ext.Toolbar",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "docked": "bottom"
-            },
-            "name": "MyToolbar",
-            "designerId": "d0207848-ce7f-44aa-81e1-5230e8e7fba2"
-        },
-        {
-            "type": "Ext.navigation.View",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "name": "MyNavigationView",
-            "designerId": "bf274e8a-55df-46ac-bddd-46584eabbf00"
-        }
-    ]
+    "name": "MyNavigationView",
+    "designerId": "4789d264-76ed-483b-a964-f1ae0be0645f"
 }

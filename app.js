@@ -21,7 +21,7 @@ Ext.Loader.setConfig({
 
 Ext.application({
     views: [
-        'Initial',
+        'InitialView',
         'SecondView'
     ],
     controllers: [
@@ -31,7 +31,7 @@ Ext.application({
 
     launch: function() {
 
-        Ext.create('MyApp.view.Initial', {fullscreen: true});
+        Ext.create('MyApp.view.InitialView', {fullscreen: true});
     }
 
 });

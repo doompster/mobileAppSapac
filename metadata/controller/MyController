@@ -19,21 +19,21 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "button#mybutton3",
+                "designer|controlQuery": "button#mybutton2",
                 "designer|params": [
                     "button",
                     "e",
                     "eOpts"
                 ],
                 "designer|targetType": "Ext.Button",
-                "fn": "onMybutton3Tap",
+                "fn": "onMybutton2Tap",
                 "implHandler": [
-                    "Ext.get('SecondView').setActiveItem(1, {type : 'slide', direction:'left'});"
+                    "Ext.get('InitialView').push(Ext.get('SecondView'));"
                 ],
                 "name": "tap"
             },
-            "name": "onMybutton3Tap",
-            "designerId": "9f2c112e-87cb-44d4-922a-14cfcf652d7e"
+            "name": "onMybutton2Tap",
+            "designerId": "c5be60d5-4896-4438-8af2-650cc2642dad"
         }
     ]
 }
