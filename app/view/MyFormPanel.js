@@ -17,7 +17,12 @@ Ext.define('MyApp.view.MyFormPanel', {
     extend: 'Ext.form.Panel',
 
     requires: [
-        'Ext.field.Password'
+        'Ext.field.Password',
+        'Ext.field.DatePicker',
+        'Ext.picker.Date',
+        'Ext.Button',
+        'Ext.field.Spinner',
+        'Ext.field.Toggle'
     ],
 
     config: {
@@ -29,6 +34,23 @@ Ext.define('MyApp.view.MyFormPanel', {
             {
                 xtype: 'textfield',
                 label: 'login'
+            },
+            {
+                xtype: 'datepickerfield',
+                label: 'Field',
+                placeHolder: 'mm/dd/yyyy'
+            },
+            {
+                xtype: 'spinnerfield',
+                label: 'Field'
+            },
+            {
+                xtype: 'togglefield',
+                label: 'Field'
+            },
+            {
+                xtype: 'sliderfield',
+                label: 'Field'
             }
         ]
     }

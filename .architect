@@ -9,6 +9,31 @@
                 },
                 {
                     "id": "fea72d38-784c-4838-83b9-e3f2f09c1685"
+                },
+                {
+                    "id": "f0d70f85-673f-48fc-ac26-f747f29d013d",
+                    "cn": [
+                        {
+                            "id": "a4caddb3-eb1a-4b5e-ae16-da7b27358ef9",
+                            "cn": [
+                                {
+                                    "id": "bbf665ca-b1a3-40cc-92a4-527e32e23af1"
+                                },
+                                {
+                                    "id": "440bc74a-6f5d-426b-9650-8a9c85f9d5a7"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "843c120f-80fd-4e3a-a10a-0d95e3106ff8"
+                },
+                {
+                    "id": "7636556f-8219-41d6-9a4f-5cb9704b7c80"
+                },
+                {
+                    "id": "fa0f4e2b-b889-4e1d-9202-5818366b71f5"
                 }
             ]
         },
@@ -38,8 +63,8 @@
         "topInstance": "b9e380be-1736-4554-aecd-83e5a2f776fc"
     },
     "inspectorState": {
-        "topInstance": "b9e380be-1736-4554-aecd-83e5a2f776fc",
-        "selectedInstance": "b9e380be-1736-4554-aecd-83e5a2f776fc"
+        "topInstance": null,
+        "selectedInstance": null
     },
     "editMode": "design",
     "userSettings": {
