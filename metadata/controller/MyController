@@ -28,8 +28,8 @@
                 "designer|targetType": "Ext.Button",
                 "fn": "onMybutton2Tap",
                 "implHandler": [
-                    "button.up('InitialView').push({",
-                    "    xtype: 'SecondView',",
+                    "button.up('initialview').push({",
+                    "    xtype: 'secondview',",
                     "    title: 'Step 2'",
                     "});"
                 ],

@@ -25,8 +25,8 @@ Ext.define('MyApp.controller.MyController', {
     },
 
     onMybutton2Tap: function(button, e, eOpts) {
-        button.up('InitialView').push({
-            xtype: 'SecondView',
+        button.up('initialview').push({
+            xtype: 'secondview',
             title: 'Step 2'
         });
     }
