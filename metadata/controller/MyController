@@ -30,10 +30,10 @@
                 "implHandler": [
                     "Ext.Msg.alert('Alert', 'test', Ext.emptyFn);",
                     "",
-                    "button.up('initialview').push({",
+                    "/*button.up('initialview').push({",
                     "    xtype: 'secondview',",
                     "    title: 'Step 2'",
-                    "});"
+                    "});*/"
                 ],
                 "name": "tap"
             },
