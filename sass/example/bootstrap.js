@@ -2576,7 +2576,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "MyApp.view.MyFormPanel": []
+  "MyApp.controller.MyController": [],
+  "MyApp.view.InitialView": [],
+  "MyApp.view.MainPanel": [],
+  "MyApp.view.SecondView": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -3518,7 +3521,14 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "MyApp.view.MyFormPanel": []
+  "MyApp.controller.MyController": [],
+  "MyApp.view.InitialView": [
+    "widget.InitialView"
+  ],
+  "MyApp.view.MainPanel": [
+    "widget.MainPanel"
+  ],
+  "MyApp.view.SecondView": []
 });
 
 

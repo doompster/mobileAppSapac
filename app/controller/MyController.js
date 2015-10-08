@@ -18,14 +18,17 @@ Ext.define('MyApp.controller.MyController', {
 
     config: {
         control: {
-            "button#mybutton2": {
+            "#SaveButton": {
                 tap: 'onMybutton2Tap'
             }
         }
     },
 
     onMybutton2Tap: function(button, e, eOpts) {
-        Ext.get('InitialView').push(Ext.get('SecondView'));
+        button.up('InitialView').push({
+            xtype: 'SecondView',
+            title: 'Step 2'
+        });
     }
 
 });

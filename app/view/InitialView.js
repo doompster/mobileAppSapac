@@ -15,17 +15,11 @@
 
 Ext.define('MyApp.view.InitialView', {
     extend: 'Ext.navigation.View',
+    alias: 'widget.InitialView',
 
     requires: [
-        'Ext.form.Panel',
-        'Ext.field.Password',
-        'Ext.field.DatePicker',
-        'Ext.picker.Date',
-        'Ext.Button',
-        'Ext.field.Spinner',
-        'Ext.field.Toggle',
-        'Ext.field.Checkbox',
-        'Ext.Toolbar'
+        'MyApp.view.MainPanel',
+        'Ext.form.Panel'
     ],
 
     config: {
@@ -33,53 +27,7 @@ Ext.define('MyApp.view.InitialView', {
         itemId: 'InitialView',
         items: [
             {
-                xtype: 'formpanel',
-                items: [
-                    {
-                        xtype: 'passwordfield',
-                        label: 'Pass'
-                    },
-                    {
-                        xtype: 'textfield',
-                        label: 'login'
-                    },
-                    {
-                        xtype: 'datepickerfield',
-                        label: 'Field',
-                        placeHolder: 'mm/dd/yyyy'
-                    },
-                    {
-                        xtype: 'spinnerfield',
-                        label: 'Field'
-                    },
-                    {
-                        xtype: 'togglefield',
-                        label: 'Field'
-                    },
-                    {
-                        xtype: 'sliderfield',
-                        label: 'Field'
-                    },
-                    {
-                        xtype: 'checkboxfield',
-                        label: 'Field'
-                    },
-                    {
-                        xtype: 'numberfield',
-                        label: 'Field'
-                    },
-                    {
-                        xtype: 'toolbar',
-                        docked: 'bottom',
-                        items: [
-                            {
-                                xtype: 'button',
-                                itemId: 'mybutton2',
-                                text: 'Save'
-                            }
-                        ]
-                    }
-                ]
+                xtype: 'MainPanel'
             }
         ]
     }

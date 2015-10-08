@@ -12,7 +12,8 @@
         "name": "MyApp",
         "views": [
             "InitialView",
-            "SecondView"
+            "SecondView",
+            "MainPanel"
         ]
     },
     "name": "Application",

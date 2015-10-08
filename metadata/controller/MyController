@@ -19,7 +19,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "button#mybutton2",
+                "designer|controlQuery": "#SaveButton",
                 "designer|params": [
                     "button",
                     "e",
@@ -28,7 +28,10 @@
                 "designer|targetType": "Ext.Button",
                 "fn": "onMybutton2Tap",
                 "implHandler": [
-                    "Ext.get('InitialView').push(Ext.get('SecondView'));"
+                    "button.up('InitialView').push({",
+                    "    xtype: 'SecondView',",
+                    "    title: 'Step 2'",
+                    "});"
                 ],
                 "name": "tap"
             },
