@@ -28,6 +28,8 @@
                 "designer|targetType": "Ext.Button",
                 "fn": "onMybutton2Tap",
                 "implHandler": [
+                    "Ext.Msg.alert('Alert', 'test', Ext.emptyFn);",
+                    "",
                     "button.up('initialview').push({",
                     "    xtype: 'secondview',",
                     "    title: 'Step 2'",
