@@ -180,8 +180,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "id": "SaveButton",
-                        "itemId": "SaveButton",
+                        "id": "savebutton",
+                        "itemId": "savebutton",
                         "text": "Save"
                     },
                     "name": "MyButton2",

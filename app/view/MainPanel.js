@@ -70,8 +70,8 @@ Ext.define('MyApp.view.MainPanel', {
                 items: [
                     {
                         xtype: 'button',
-                        id: 'SaveButton',
-                        itemId: 'SaveButton',
+                        id: 'savebutton',
+                        itemId: 'savebutton',
                         text: 'Save'
                     }
                 ]

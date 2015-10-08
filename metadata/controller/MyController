@@ -19,7 +19,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#SaveButton",
+                "designer|controlQuery": "#savebutton",
                 "designer|params": [
                     "button",
                     "e",

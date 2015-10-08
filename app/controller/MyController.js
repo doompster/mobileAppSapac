@@ -18,7 +18,7 @@ Ext.define('MyApp.controller.MyController', {
 
     config: {
         control: {
-            "#SaveButton": {
+            "#savebutton": {
                 tap: 'onMybutton2Tap'
             }
         }
