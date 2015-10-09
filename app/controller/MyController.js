@@ -32,12 +32,14 @@ Ext.define('MyApp.controller.MyController', {
     },
 
     onMybutton2Tap: function(button, e, eOpts) {
-        Ext.Msg.alert('Alert', 'test', Ext.emptyFn);
+        console.debug("test");
+        //Ext.Msg.alert('Alert', 'test', Ext.emptyFn);
 
-        /*button.up('initialview').push({
-            xtype: 'secondview',
+        this.getInitialView().push({
+            xtype: 'SecondView',
             title: 'Step 2'
-        });*/
+        });
+
     }
 
 });

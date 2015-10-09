@@ -99,13 +99,13 @@
         ]
     },
     "canvasState": {
-        "topInstance": null
+        "topInstance": "4789d264-76ed-483b-a964-f1ae0be0645f"
     },
     "inspectorState": {
-        "topInstance": "4c3d9620-2456-4ffe-bd91-e6dd01fd753e",
-        "selectedInstance": "dc3564ca-d284-4c88-b3e1-5eecc999de1b"
+        "topInstance": null,
+        "selectedInstance": null
     },
-    "editMode": "code",
+    "editMode": "design",
     "userSettings": {
         "no-cmd": false
     }

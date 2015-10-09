@@ -23,12 +23,14 @@
                 "designer|targetType": "Ext.Button",
                 "fn": "onMybutton2Tap",
                 "implHandler": [
-                    "Ext.Msg.alert('Alert', 'test', Ext.emptyFn);",
+                    "console.debug(\"test\");",
+                    "//Ext.Msg.alert('Alert', 'test', Ext.emptyFn);",
                     "",
-                    "/*button.up('initialview').push({",
-                    "    xtype: 'secondview',",
+                    "this.getInitialView().push({",
+                    "    xtype: 'SecondView',",
                     "    title: 'Step 2'",
-                    "});*/"
+                    "});",
+                    ""
                 ],
                 "name": "tap"
             },

@@ -15,6 +15,7 @@
 
 Ext.define('MyApp.view.SecondView', {
     extend: 'Ext.navigation.View',
+    alias: 'widget.SecondView',
 
     config: {
         id: 'SecondView',

@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userAlias": "SecondView",
         "designer|userClassName": "SecondView",
         "id": "SecondView",
         "itemId": "SecondView"
