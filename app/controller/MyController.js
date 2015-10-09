@@ -17,8 +17,15 @@ Ext.define('MyApp.controller.MyController', {
     extend: 'Ext.app.Controller',
 
     config: {
+        refs: {
+            InitialView: {
+                selector: '#InitialView',
+                xtype: 'Ext.navigation.View'
+            }
+        },
+
         control: {
-            "#savebutton": {
+            "button#savebutton": {
                 tap: 'onMybutton2Tap'
             }
         }

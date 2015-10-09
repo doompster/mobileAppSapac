@@ -19,12 +19,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#savebutton",
-                "designer|params": [
-                    "button",
-                    "e",
-                    "eOpts"
-                ],
+                "designer|controlQuery": "button#savebutton",
                 "designer|targetType": "Ext.Button",
                 "fn": "onMybutton2Tap",
                 "implHandler": [
@@ -39,6 +34,21 @@
             },
             "name": "onMybutton2Tap",
             "designerId": "c5be60d5-4896-4438-8af2-650cc2642dad"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "InitialView",
+                "selector": "#InitialView",
+                "xtype": "Ext.navigation.View"
+            },
+            "name": "InitialView",
+            "designerId": "dc3564ca-d284-4c88-b3e1-5eecc999de1b"
         }
     ]
 }
