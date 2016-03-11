@@ -9,7 +9,7 @@
         "controllers": [
             "MyController"
         ],
-        "name": "MyApp",
+        "name": "MobileSapac",
         "views": [
             "InitialView",
             "SecondView",

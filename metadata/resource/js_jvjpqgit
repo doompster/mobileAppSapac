@@ -1,0 +1,17 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "defer": false,
+        "designer|userClassName": "js_jvjpqgit",
+        "id": "taffyDB",
+        "url": "taffy.js",
+        "x-compile": true
+    },
+    "name": "js",
+    "designerId": "df2a1c2e-d1fd-4125-ae58-236aa13b3931"
+}

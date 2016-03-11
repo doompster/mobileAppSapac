@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.view.SecondView', {
+Ext.define('MobileSapac.view.SecondView', {
     extend: 'Ext.navigation.View',
     alias: 'widget.SecondView',
 

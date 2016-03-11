@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.view.MainPanel', {
+Ext.define('MobileSapac.view.MainPanel', {
     extend: 'Ext.form.Panel',
     alias: 'widget.MainPanel',
 

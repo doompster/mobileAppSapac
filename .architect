@@ -88,6 +88,9 @@
         },
         "c15f7c6a-b261-4648-91c9-869754f72504": {
             "id": "c15f7c6a-b261-4648-91c9-869754f72504"
+        },
+        "df2a1c2e-d1fd-4125-ae58-236aa13b3931": {
+            "id": "df2a1c2e-d1fd-4125-ae58-236aa13b3931"
         }
     },
     "tabState": {
@@ -102,8 +105,8 @@
         "topInstance": "4789d264-76ed-483b-a964-f1ae0be0645f"
     },
     "inspectorState": {
-        "topInstance": null,
-        "selectedInstance": null
+        "topInstance": "4789d264-76ed-483b-a964-f1ae0be0645f",
+        "selectedInstance": "4789d264-76ed-483b-a964-f1ae0be0645f"
     },
     "editMode": "design",
     "userSettings": {

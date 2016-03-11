@@ -14,7 +14,7 @@
          }
       }
    },
-   "name": "MyApp",
+   "name": "MobileSapac",
    "indexHtmlPath": "index.html",
    "url": null,
    "js": [
@@ -25,6 +25,10 @@
       {
          "path": "bootstrap.js",
          "x-bootstrap": true
+      },
+      {
+         "path": "taffy.js",
+         "x-compile": true
       },
       {
          "path": "app.js",

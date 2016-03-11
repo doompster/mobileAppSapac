@@ -28,11 +28,11 @@ Ext.application({
     controllers: [
         'MyController'
     ],
-    name: 'MyApp',
+    name: 'MobileSapac',
 
     launch: function() {
 
-        Ext.create('MyApp.view.InitialView', {fullscreen: true});
+        Ext.create('MobileSapac.view.InitialView', {fullscreen: true});
     }
 
 });

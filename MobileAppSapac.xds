@@ -1,5 +1,5 @@
 {
-    "name": "TestMultiDevice",
+    "name": "MobileAppSapac",
     "settings": {
         "cmd": {
             "license": "gpl",
@@ -52,7 +52,8 @@
             "d7a37160-6fbc-470a-a726-1f34763e30f0",
             "bb1b8ade-3d6f-482f-a83f-c0b7310e6cf1",
             "3b43e76b-52f7-4c1b-a0f0-9d72691b60f9",
-            "c15f7c6a-b261-4648-91c9-869754f72504"
+            "c15f7c6a-b261-4648-91c9-869754f72504",
+            "df2a1c2e-d1fd-4125-ae58-236aa13b3931"
         ],
         "app": [
             "application"

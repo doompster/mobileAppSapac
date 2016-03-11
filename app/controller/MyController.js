@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.controller.MyController', {
+Ext.define('MobileSapac.controller.MyController', {
     extend: 'Ext.app.Controller',
 
     config: {
@@ -34,6 +34,13 @@ Ext.define('MyApp.controller.MyController', {
     onMybutton2Tap: function(button, e, eOpts) {
         console.debug("test");
         //Ext.Msg.alert('Alert', 'test', Ext.emptyFn);
+
+
+        var cities = TAFFY([{name:"New York",state:"WA"},{name:"Las Vegas",state:"NV"},{name:"Boston",state:"MA"}]);
+
+        cities.store("ciudades");
+
+        cities.insert({name:"Portland",state:"OR"});
 
         this.getInitialView().push({
             xtype: 'SecondView',

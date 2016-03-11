@@ -13,12 +13,12 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.view.InitialView', {
+Ext.define('MobileSapac.view.InitialView', {
     extend: 'Ext.navigation.View',
     alias: 'widget.InitialView',
 
     requires: [
-        'MyApp.view.MainPanel',
+        'MobileSapac.view.MainPanel',
         'Ext.form.Panel'
     ],
 
