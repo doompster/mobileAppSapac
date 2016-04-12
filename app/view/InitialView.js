@@ -27,7 +27,9 @@ Ext.define('MobileSapac.view.InitialView', {
         itemId: 'InitialView',
         items: [
             {
-                xtype: 'MainPanel'
+                xtype: 'MainPanel',
+                left: '',
+                title: 'SAPAC'
             }
         ]
     }

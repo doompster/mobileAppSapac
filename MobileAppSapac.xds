@@ -15,8 +15,8 @@
             },
             "viewportOrientation": "portrait"
         },
-        "urlPrefix": "http://localhost/TestMultiDevice/",
-        "exportPath": "C:/xampp/htdocs/TestMultiDeviceDist",
+        "urlPrefix": "http://localhost/MobileAppSapac/",
+        "exportPath": "C:/xampp/htdocs/MobileAppSapacSite",
         "projectHasEnabledWebServer": false,
         "lockUrlPrefix": false,
         "buildShouldOverwriteIndex": true,
@@ -28,8 +28,8 @@
         "installStatus": "Not Installed",
         "sdkPath": "",
         "lastBuildSelection": {
-            "value": "emulate",
-            "display": "Native Build & Emulate"
+            "value": "webBuild",
+            "display": "Build web app"
         }
     },
     "xdsVersion": "3.2.0",
@@ -40,8 +40,9 @@
     "viewOrderMap": {
         "view": [
             "2e875748-5268-4e35-a709-1c2ccd8f5a38",
-            "4789d264-76ed-483b-a964-f1ae0be0645f",
-            "224b212c-2f7c-4173-b674-2c8244990acb"
+            "224b212c-2f7c-4173-b674-2c8244990acb",
+            "ec9f1e19-7c46-4259-a206-7135994a6faa",
+            "565f372d-757e-4241-916d-6a616856800b"
         ],
         "store": [],
         "controller": [
@@ -53,7 +54,8 @@
             "bb1b8ade-3d6f-482f-a83f-c0b7310e6cf1",
             "3b43e76b-52f7-4c1b-a0f0-9d72691b60f9",
             "c15f7c6a-b261-4648-91c9-869754f72504",
-            "df2a1c2e-d1fd-4125-ae58-236aa13b3931"
+            "df2a1c2e-d1fd-4125-ae58-236aa13b3931",
+            "80eecff4-0d09-4039-9ce5-123498362d76"
         ],
         "app": [
             "application"

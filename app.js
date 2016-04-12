@@ -22,8 +22,9 @@ Ext.Loader.setConfig({
 Ext.application({
     views: [
         'InitialView',
-        'SecondView',
-        'MainPanel'
+        'MainPanel',
+        'ReporteFugasPanel',
+        'ConsultaSaldosPanel'
     ],
     controllers: [
         'MyController'

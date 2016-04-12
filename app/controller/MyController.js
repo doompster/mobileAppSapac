@@ -36,15 +36,15 @@ Ext.define('MobileSapac.controller.MyController', {
         //Ext.Msg.alert('Alert', 'test', Ext.emptyFn);
 
 
-        var cities = TAFFY([{name:"New York",state:"WA"},{name:"Las Vegas",state:"NV"},{name:"Boston",state:"MA"}]);
+        //var cities = TAFFY([{name:"New York",state:"WA"},{name:"Las Vegas",state:"NV"},{name:"Boston",state:"MA"}]);
 
-        cities.store("ciudades");
+        //cities.store("ciudades");
 
-        cities.insert({name:"Portland",state:"OR"});
+        //cities.insert({name:"Portland",state:"OR"});
 
         this.getInitialView().push({
-            xtype: 'SecondView',
-            title: 'Step 2'
+            xtype: 'ReporteFugasPanel',
+            title: 'Reporte fuga'
         });
 
     }

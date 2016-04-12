@@ -1835,7 +1835,6 @@ Ext.Loader.addClassPathMappings({
   "Ext.Element-static": "../../touch/src/dom/Element.static.js",
   "Ext.Element-style": "../../touch/src/dom/Element.style.js",
   "Ext.Element-traversal": "../../touch/src/dom/Element.traversal.js",
-  "Ext.cmd": "../../../../../Users/aldo/bin/Sencha/Cmd/6.0.1.76/plugins/src",
   "Ext.core.DomQuery": "../../touch/src/dom/Query.js",
   "Ext.device.Purchases.Product": "../../touch/src/device/purchases/Sencha.js",
   "Ext.device.filesystem.DirectoryEntry": "../../touch/src/device/filesystem/Sencha.js",
@@ -1848,7 +1847,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.device.sqlite.SQLResultSetRowList": "../../touch/src/device/sqlite/Sencha.js",
   "Ext.device.sqlite.SQLTransaction": "../../touch/src/device/sqlite/Sencha.js",
   "Ext.draw.engine.SvgContext.Gradient": "../../touch/src/draw/engine/SvgContext.js",
-  "MyApp": "../../app"
+  "MobileSapac": "../../app"
 });
 
 Ext.ClassManager.addNameAlternateMappings({
@@ -2451,6 +2450,17 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
+  "Ext.log.Base": [],
+  "Ext.log.Logger": [],
+  "Ext.log.filter.Filter": [],
+  "Ext.log.filter.Priority": [],
+  "Ext.log.formatter.Default": [],
+  "Ext.log.formatter.Formatter": [],
+  "Ext.log.formatter.Identity": [],
+  "Ext.log.writer.Console": [],
+  "Ext.log.writer.DocumentTitle": [],
+  "Ext.log.writer.Remote": [],
+  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -2576,10 +2586,11 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "MyApp.controller.MyController": [],
-  "MyApp.view.InitialView": [],
-  "MyApp.view.MainPanel": [],
-  "MyApp.view.SecondView": []
+  "MobileSapac.controller.MyController": [],
+  "MobileSapac.view.ConsultaSaldoView": [],
+  "MobileSapac.view.InitialView": [],
+  "MobileSapac.view.MainPanel": [],
+  "MobileSapac.view.ReporteFugasView": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -3384,6 +3395,17 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
+  "Ext.log.Base": [],
+  "Ext.log.Logger": [],
+  "Ext.log.filter.Filter": [],
+  "Ext.log.filter.Priority": [],
+  "Ext.log.formatter.Default": [],
+  "Ext.log.formatter.Formatter": [],
+  "Ext.log.formatter.Identity": [],
+  "Ext.log.writer.Console": [],
+  "Ext.log.writer.DocumentTitle": [],
+  "Ext.log.writer.Remote": [],
+  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -3521,14 +3543,15 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "MyApp.controller.MyController": [],
-  "MyApp.view.InitialView": [
+  "MobileSapac.controller.MyController": [],
+  "MobileSapac.view.ConsultaSaldoView": [],
+  "MobileSapac.view.InitialView": [
     "widget.InitialView"
   ],
-  "MyApp.view.MainPanel": [
+  "MobileSapac.view.MainPanel": [
     "widget.MainPanel"
   ],
-  "MyApp.view.SecondView": []
+  "MobileSapac.view.ReporteFugasView": []
 });
 
 
