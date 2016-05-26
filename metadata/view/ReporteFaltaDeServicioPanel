@@ -1,0 +1,88 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ReporteFaltaDeServicioPanel"
+    },
+    "name": "MyPanel",
+    "designerId": "c32c20d9-7b95-4a44-bacd-b7aa014ebba0",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom"
+            },
+            "name": "MyToolbar2",
+            "designerId": "95f03410-e412-4af2-ac30-8e20cad01a33",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "confirm",
+                        "text": "Enviar reporte",
+                        "ui": "confirm"
+                    },
+                    "name": "MyButton3",
+                    "designerId": "3d3c0deb-87be-4810-86bc-1e0c7a7e2257"
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Cuenta"
+            },
+            "name": "MySelectField",
+            "designerId": "5a3912c7-0bab-487c-a305-6220fca273e6"
+        },
+        {
+            "type": "Ext.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 106,
+                "label": "Direccion",
+                "labelAlign": "top",
+                "width": 316
+            },
+            "name": "MyTextArea",
+            "designerId": "da5cc2b9-2d1a-4e62-a505-92686371b9d3"
+        },
+        {
+            "type": "Ext.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Observaciones",
+                "labelAlign": "top"
+            },
+            "name": "MyTextArea1",
+            "designerId": "5379ec73-a9fa-4db0-baaa-b008b017b22e"
+        }
+    ]
+}

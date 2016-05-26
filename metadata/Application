@@ -9,7 +9,19 @@
         "controllers": [
             "MyController"
         ],
+        "models": [
+            "fuga",
+            "usuario",
+            "recibo",
+            "faltaServicio"
+        ],
         "name": "MobileSapac",
+        "stores": [
+            "JsonStoreUsuario",
+            "JsonStoreRecibo",
+            "JsonStoreFuga",
+            "JsonStoreFaltaServicio"
+        ],
         "views": [
             "InitialView",
             "ReporteFugaView",
@@ -17,7 +29,8 @@
             "ReporteFugaPanel",
             "ConsultaSaldoPanel",
             "ReporteFugasPanel",
-            "ConsultaSaldosPanel"
+            "ConsultaSaldosPanel",
+            "ReporteFaltaDeServicioPanel"
         ]
     },
     "name": "Application",

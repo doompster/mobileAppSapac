@@ -1,0 +1,84 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "MainPanel",
+        "designer|userClassName": "MainPanel",
+        "docked": null,
+        "itemId": "myformpanel"
+    },
+    "name": "MyFormPanel",
+    "designerId": "224b212c-2f7c-4173-b674-2c8244990acb",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "container|pack": "center",
+                "designer|uiInterfaceName": "light",
+                "docked": "bottom",
+                "height": "10%",
+                "maxHeight": "10%",
+                "ui": "light"
+            },
+            "name": "MyToolbar1",
+            "designerId": "cd836098-e24e-4895-98f5-1bdaf3646b2d",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "plain",
+                        "iconAlign": "top",
+                        "iconCls": "home",
+                        "text": null,
+                        "ui": "plain"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "94545026-56d3-44cc-8685-2b880886c4b1"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconAlign": "top",
+                        "iconCls": "organize",
+                        "text": "MyButton7"
+                    },
+                    "name": "MyButton7",
+                    "designerId": "0f7f4540-2311-4a52-841f-7f55ad7f481d"
+                }
+            ]
+        },
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "name": "MyTitleBar",
+            "designerId": "fc553198-a4be-44d6-a44b-bfe1d2476a74"
+        }
+    ]
+}

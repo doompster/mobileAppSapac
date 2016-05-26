@@ -1,0 +1,26 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "MyController"
+        ],
+        "name": "MobileSapac",
+        "views": [
+            "InitialView",
+            "ReporteFugaView",
+            "MainPanel",
+            "ReporteFugaPanel",
+            "ConsultaSaldoPanel",
+            "ReporteFugasPanel",
+            "ConsultaSaldosPanel",
+            "ReporteFaltaDeServicio"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

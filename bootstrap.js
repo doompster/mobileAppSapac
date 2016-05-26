@@ -21,6 +21,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.Element-static": "touch/src/dom/Element.static.js",
   "Ext.Element-style": "touch/src/dom/Element.style.js",
   "Ext.Element-traversal": "touch/src/dom/Element.traversal.js",
+  "Ext.cmd": "../../../Users/aldo/bin/Sencha/Cmd/6.1.1.76/plugins/src",
   "Ext.core.DomQuery": "touch/src/dom/Query.js",
   "Ext.device.Purchases.Product": "touch/src/device/purchases/Sencha.js",
   "Ext.device.filesystem.DirectoryEntry": "touch/src/device/filesystem/Sencha.js",
@@ -636,17 +637,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
-  "Ext.log.Base": [],
-  "Ext.log.Logger": [],
-  "Ext.log.filter.Filter": [],
-  "Ext.log.filter.Priority": [],
-  "Ext.log.formatter.Default": [],
-  "Ext.log.formatter.Formatter": [],
-  "Ext.log.formatter.Identity": [],
-  "Ext.log.writer.Console": [],
-  "Ext.log.writer.DocumentTitle": [],
-  "Ext.log.writer.Remote": [],
-  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -773,10 +763,19 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.viewport.WP"
   ],
   "MobileSapac.controller.MyController": [],
-  "MobileSapac.view.ConsultaSaldoView": [],
+  "MobileSapac.model.faltaServicio": [],
+  "MobileSapac.model.fuga": [],
+  "MobileSapac.model.recibo": [],
+  "MobileSapac.model.usuario": [],
+  "MobileSapac.store.JsonStoreFaltaServicio": [],
+  "MobileSapac.store.JsonStoreFuga": [],
+  "MobileSapac.store.JsonStoreRecibo": [],
+  "MobileSapac.store.JsonStoreUsuario": [],
+  "MobileSapac.view.ConsultaSaldosPanel": [],
   "MobileSapac.view.InitialView": [],
   "MobileSapac.view.MainPanel": [],
-  "MobileSapac.view.ReporteFugasView": []
+  "MobileSapac.view.ReporteFaltaDeServicioPanel": [],
+  "MobileSapac.view.ReporteFugasPanel": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -1581,17 +1580,6 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
-  "Ext.log.Base": [],
-  "Ext.log.Logger": [],
-  "Ext.log.filter.Filter": [],
-  "Ext.log.filter.Priority": [],
-  "Ext.log.formatter.Default": [],
-  "Ext.log.formatter.Formatter": [],
-  "Ext.log.formatter.Identity": [],
-  "Ext.log.writer.Console": [],
-  "Ext.log.writer.DocumentTitle": [],
-  "Ext.log.writer.Remote": [],
-  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -1730,14 +1718,27 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
   "MobileSapac.controller.MyController": [],
-  "MobileSapac.view.ConsultaSaldoView": [],
+  "MobileSapac.model.faltaServicio": [],
+  "MobileSapac.model.fuga": [],
+  "MobileSapac.model.recibo": [],
+  "MobileSapac.model.usuario": [],
+  "MobileSapac.store.JsonStoreFaltaServicio": [],
+  "MobileSapac.store.JsonStoreFuga": [],
+  "MobileSapac.store.JsonStoreRecibo": [],
+  "MobileSapac.store.JsonStoreUsuario": [],
+  "MobileSapac.view.ConsultaSaldosPanel": [
+    "widget.ConsultaSaldosPanel"
+  ],
   "MobileSapac.view.InitialView": [
     "widget.InitialView"
   ],
   "MobileSapac.view.MainPanel": [
     "widget.MainPanel"
   ],
-  "MobileSapac.view.ReporteFugasView": []
+  "MobileSapac.view.ReporteFaltaDeServicioPanel": [],
+  "MobileSapac.view.ReporteFugasPanel": [
+    "widget.ReporteFugasPanel"
+  ]
 });
 
 

@@ -1,0 +1,39 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "JsonStoreFuga",
+        "model": "fuga",
+        "storeId": "JsonStoreFuga"
+    },
+    "name": "JsonStoreUsuario2",
+    "designerId": "c845a49a-5f6e-4404-ba28-ac037f5ad817",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyJsonPProxy",
+            "designerId": "a7ac57a1-2cab-46d4-8e2f-2b5001161b3b",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader",
+                    "designerId": "261c4393-a422-4dad-97fe-6d70a2647c30"
+                }
+            ]
+        }
+    ]
+}

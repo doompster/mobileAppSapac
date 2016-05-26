@@ -1,0 +1,71 @@
+{
+   "builds": {
+      "web": {
+         "default": true
+      },
+      "native": {
+         "packager": "phonegap",
+         "phonegap": {
+            "config": {
+               "id": "com.domain.MyApp",
+               "name": "MyApp",
+               "platform": "android"
+            }
+         }
+      }
+   },
+   "name": "MobileSapac",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "taffy.js",
+         "x-compile": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "resources/css/sencha-touch-bb1b8ade-3d6f-482f-a83f-c0b7310e6cf1.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "275087e7-ce1a-45a2-934b-3b478c817fde"
+}

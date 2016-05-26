@@ -1,0 +1,48 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "JsonStoreFaltaServicio",
+        "model": "faltaServicio",
+        "storeId": "JsonStoreFaltaServicio"
+    },
+    "name": "JsonStoreUsuario3",
+    "designerId": "53d32d6c-0e89-4213-a15e-dfa604a73be2",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://127.0.0.1/webappcore/service.php?serviceName=getAll&object=usuario&jsonp=true"
+            },
+            "name": "MyJsonPProxy",
+            "designerId": "0dc8c18c-4efb-4528-85b3-f9b791083c5d",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "messageProperty": "message",
+                        "rootProperty": "object",
+                        "successProperty": "status"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "fc6f4f14-b38d-4ae1-8270-a3184c87e253"
+                }
+            ]
+        }
+    ]
+}

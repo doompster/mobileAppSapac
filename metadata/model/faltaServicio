@@ -1,0 +1,80 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "faltaServicio"
+    },
+    "name": "MyModel",
+    "designerId": "400afa7e-0087-437e-bfa8-5e985597f613",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "idUsuario"
+            },
+            "name": "field8",
+            "designerId": "abd20d8d-0164-4533-84c4-14c6efec974b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "created"
+            },
+            "name": "field9",
+            "designerId": "29d09988-d364-4c58-b2c1-e0553b9b1a99"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "descripcion"
+            },
+            "name": "field10",
+            "designerId": "d69389d5-614c-40a3-bc05-5e576794e8aa"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "cuenta"
+            },
+            "name": "field11",
+            "designerId": "0ffed06c-c2c5-43a2-a61a-bf9833424f47"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "location"
+            },
+            "name": "field12",
+            "designerId": "a38123d4-1183-4c1e-ae70-8559a2df7977"
+        }
+    ]
+}

@@ -15,151 +15,6 @@
     "designerId": "224b212c-2f7c-4173-b674-2c8244990acb",
     "cn": [
         {
-            "type": "Ext.field.Password",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "Pass"
-            },
-            "name": "MyPasswordField",
-            "designerId": "eff71400-c01a-4796-bcf9-c8b4b055dbb6"
-        },
-        {
-            "type": "Ext.field.Text",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "login"
-            },
-            "name": "MyTextField",
-            "designerId": "fea72d38-784c-4838-83b9-e3f2f09c1685"
-        },
-        {
-            "type": "Ext.field.DatePicker",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "Field",
-                "placeHolder": "mm/dd/yyyy"
-            },
-            "name": "MyDatePicker",
-            "designerId": "f0d70f85-673f-48fc-ac26-f747f29d013d",
-            "cn": [
-                {
-                    "type": "Ext.picker.Date",
-                    "reference": {
-                        "name": "picker",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "name": "MyDatePicker1",
-                    "designerId": "a4caddb3-eb1a-4b5e-ae16-da7b27358ef9",
-                    "cn": [
-                        {
-                            "type": "Ext.Button",
-                            "reference": {
-                                "name": "doneButton",
-                                "type": "object"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "text": "Done"
-                            },
-                            "name": "MyButton",
-                            "designerId": "bbf665ca-b1a3-40cc-92a4-527e32e23af1"
-                        },
-                        {
-                            "type": "Ext.Button",
-                            "reference": {
-                                "name": "cancelButton",
-                                "type": "object"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "text": "Cancel"
-                            },
-                            "name": "MyButton1",
-                            "designerId": "440bc74a-6f5d-426b-9650-8a9c85f9d5a7"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "Ext.field.Spinner",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "Field"
-            },
-            "name": "MySpinnerField",
-            "designerId": "843c120f-80fd-4e3a-a10a-0d95e3106ff8"
-        },
-        {
-            "type": "Ext.field.Toggle",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "Field"
-            },
-            "name": "MyToggleField",
-            "designerId": "7636556f-8219-41d6-9a4f-5cb9704b7c80"
-        },
-        {
-            "type": "Ext.field.Slider",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "Field"
-            },
-            "name": "MySliderField",
-            "designerId": "fa0f4e2b-b889-4e1d-9202-5818366b71f5"
-        },
-        {
-            "type": "Ext.field.Checkbox",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "Field"
-            },
-            "name": "MyCheckbox",
-            "designerId": "3ab1f90f-9de3-4e65-9e94-813d0d5c7c9e"
-        },
-        {
-            "type": "Ext.field.Number",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "label": "Field"
-            },
-            "name": "MyNumberField",
-            "designerId": "65392b98-af70-4b60-bec9-0691ecd86651"
-        },
-        {
             "type": "Ext.Toolbar",
             "reference": {
                 "name": "items",
@@ -167,7 +22,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "docked": "bottom"
+                "container|align": "center",
+                "container|pack": "center",
+                "designer|uiInterfaceName": "light",
+                "docked": "bottom",
+                "height": "10%",
+                "maxHeight": "10%",
+                "ui": "light"
             },
             "name": "MyToolbar1",
             "designerId": "cd836098-e24e-4895-98f5-1bdaf3646b2d",
@@ -180,14 +41,47 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "id": "savebutton",
-                        "itemId": "savebutton",
-                        "text": "Save"
+                        "designer|uiInterfaceName": "plain",
+                        "iconAlign": "top",
+                        "iconCls": "home",
+                        "text": null,
+                        "ui": "plain"
                     },
                     "name": "MyButton2",
-                    "designerId": "ab7047b4-0c9c-4908-9692-05d3064de985"
+                    "designerId": "94545026-56d3-44cc-8685-2b880886c4b1"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "plain",
+                        "iconAlign": "top",
+                        "iconCls": "organize",
+                        "text": "MyButton7",
+                        "ui": "plain",
+                        "width": 46
+                    },
+                    "name": "MyButton7",
+                    "designerId": "0f7f4540-2311-4a52-841f-7f55ad7f481d"
                 }
             ]
+        },
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "name": "MyTitleBar",
+            "designerId": "fc553198-a4be-44d6-a44b-bfe1d2476a74"
         }
     ]
 }

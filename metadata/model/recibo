@@ -1,0 +1,80 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "recibo"
+    },
+    "name": "MyModel",
+    "designerId": "e26deb98-ea21-4ebe-9714-2278e0273c24",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "idUsuario"
+            },
+            "name": "field13",
+            "designerId": "7d19c701-a2ad-465d-921d-6368968b7934"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "cuenta"
+            },
+            "name": "field14",
+            "designerId": "6cb21a28-f737-41c5-99db-27740c0bfa7d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "periodo"
+            },
+            "name": "field15",
+            "designerId": "539d03b0-496b-4439-bc3c-b5aff5d34519"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "saldo"
+            },
+            "name": "field16",
+            "designerId": "512f4423-1bcd-481c-98b0-adc89a898373"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "fechaVencimiento"
+            },
+            "name": "field19",
+            "designerId": "6c4be1f9-76b2-42db-b56e-f424c29f43bd"
+        }
+    ]
+}

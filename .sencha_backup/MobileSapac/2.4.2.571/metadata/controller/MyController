@@ -1,0 +1,63 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController"
+    },
+    "name": "MyController",
+    "designerId": "4c3d9620-2456-4ffe-bd91-e6dd01fd753e",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#savebutton",
+                "designer|targetType": "Ext.Button",
+                "fn": "onMybutton2Tap",
+                "implHandler": [
+                    "console.debug(\"test\");",
+                    "//Ext.Msg.alert('Alert', 'test', Ext.emptyFn);",
+                    "",
+                    "",
+                    "//var cities = TAFFY([{name:\"New York\",state:\"WA\"},{name:\"Las Vegas\",state:\"NV\"},{name:\"Boston\",state:\"MA\"}]);",
+                    "",
+                    "//cities.store(\"ciudades\");",
+                    "",
+                    "//cities.insert({name:\"Portland\",state:\"OR\"});",
+                    "",
+                    "this.getInitialView().push({",
+                    "    xtype: 'ReporteFugasPanel',",
+                    "    title: 'Reporte fuga'",
+                    "});",
+                    ""
+                ],
+                "name": "tap"
+            },
+            "name": "onMybutton2Tap",
+            "designerId": "c5be60d5-4896-4438-8af2-650cc2642dad"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "InitialView",
+                "selector": "#InitialView",
+                "xtype": "Ext.navigation.View"
+            },
+            "name": "InitialView",
+            "designerId": "dc3564ca-d284-4c88-b3e1-5eecc999de1b"
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 {
+   "framework": "touch",
    "builds": {
       "web": {
          "default": true
@@ -25,10 +26,6 @@
       {
          "path": "bootstrap.js",
          "x-bootstrap": true
-      },
-      {
-         "path": "taffy.js",
-         "x-compile": true
       },
       {
          "path": "app.js",

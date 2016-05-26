@@ -1,0 +1,73 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "ReporteFugasPanel",
+        "designer|userClassName": "ReporteFugasPanel"
+    },
+    "name": "MyPanel",
+    "designerId": "ec9f1e19-7c46-4259-a206-7135994a6faa",
+    "cn": [
+        {
+            "type": "Ext.Map",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 200
+            },
+            "name": "MyMap",
+            "designerId": "2156b17d-c06c-4bbd-bcd7-09aa9580dcc1"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom"
+            },
+            "name": "MyToolbar",
+            "designerId": "6200038f-341c-4f4e-8975-3c975d864afb",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "confirm",
+                        "text": "Reportar",
+                        "ui": "confirm"
+                    },
+                    "name": "MyButton6",
+                    "designerId": "ebf8db1e-cae6-41c1-9b3c-5daa742e272f"
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Observaciones",
+                "labelAlign": "top"
+            },
+            "name": "MyTextArea4",
+            "designerId": "7bed7688-4ede-496a-9ce0-5a6bef39c11d"
+        }
+    ]
+}

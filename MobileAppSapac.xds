@@ -3,7 +3,7 @@
     "settings": {
         "cmd": {
             "license": "gpl",
-            "cmdVersion": "6.0.1.76",
+            "cmdVersion": "6.1.1.76",
             "frameworkVersion": "2.4.2.571"
         },
         "canvasControls": {
@@ -15,7 +15,7 @@
             },
             "viewportOrientation": "portrait"
         },
-        "urlPrefix": "http://localhost/MobileAppSapac/",
+        "urlPrefix": "http://localhost:1841",
         "exportPath": "C:/xampp/htdocs/MobileAppSapacSite",
         "projectHasEnabledWebServer": false,
         "lockUrlPrefix": false,
@@ -28,12 +28,12 @@
         "installStatus": "Not Installed",
         "sdkPath": "",
         "lastBuildSelection": {
-            "value": "webBuild",
-            "display": "Build web app"
+            "value": "emulate",
+            "display": "Native Build & Emulate"
         }
     },
-    "xdsVersion": "3.2.0",
-    "xdsBuild": 339,
+    "xdsVersion": "3.5.0",
+    "xdsBuild": 279,
     "schemaVersion": 1,
     "upgradeVersion": 310000000001,
     "framework": "touch24",
@@ -42,19 +42,29 @@
             "2e875748-5268-4e35-a709-1c2ccd8f5a38",
             "224b212c-2f7c-4173-b674-2c8244990acb",
             "ec9f1e19-7c46-4259-a206-7135994a6faa",
-            "565f372d-757e-4241-916d-6a616856800b"
+            "565f372d-757e-4241-916d-6a616856800b",
+            "c32c20d9-7b95-4a44-bacd-b7aa014ebba0"
         ],
-        "store": [],
+        "store": [
+            "bc99d431-8fcb-43f1-b7f5-9080c393905b",
+            "53d32d6c-0e89-4213-a15e-dfa604a73be2",
+            "c845a49a-5f6e-4404-ba28-ac037f5ad817",
+            "8bbaa59c-986d-428e-9688-2d4ad7bb8fa8"
+        ],
         "controller": [
             "4c3d9620-2456-4ffe-bd91-e6dd01fd753e"
         ],
-        "model": [],
+        "model": [
+            "8f1d2c3d-bad6-4fba-99eb-67d0de618914",
+            "8f0ab0b2-0a46-4621-8dcf-6a490071ac3d",
+            "e26deb98-ea21-4ebe-9714-2278e0273c24",
+            "400afa7e-0087-437e-bfa8-5e985597f613"
+        ],
         "resource": [
             "d7a37160-6fbc-470a-a726-1f34763e30f0",
             "bb1b8ade-3d6f-482f-a83f-c0b7310e6cf1",
             "3b43e76b-52f7-4c1b-a0f0-9d72691b60f9",
             "c15f7c6a-b261-4648-91c9-869754f72504",
-            "df2a1c2e-d1fd-4125-ae58-236aa13b3931",
             "80eecff4-0d09-4039-9ce5-123498362d76"
         ],
         "app": [
